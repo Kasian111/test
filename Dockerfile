@@ -1,5 +1,10 @@
 FROM openjdk:11
+
 RUN mkdir /app
+
 COPY src/ /app
+
 WORKDIR /app
-CMD java Main.java
+
+CMD java QuizApplication.java
+
